@@ -1,0 +1,402 @@
+@font-face {
+    font-family: 'segoeuil';
+    src: url(../fonts/segoeuil.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Gudea-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/Belleza-Regular.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(../fonts/AvenirLTStd-Book.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.upp{
+    margin-top:170px;
+}
+html,
+body {
+    font-family: segoeuil;
+    /* background:red; */
+}
+.font1 {
+    font-family: font1;
+}
+
+.font2 {
+    font-family: font2;
+}
+
+.font3 {
+    font-family: font3;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerImage {
+    margin: auto;
+    display: block;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.headerSocial {
+    position: absolute !important;
+    top: 31px;
+    left: 1185px;
+}
+
+#firstHeader a {
+    border: gray 1px solid;
+    border-radius: 9px;
+    padding: 3px 13px;
+}
+
+#firstHeader .row {
+    padding: 9px 180px 9px 110px;
+}
+
+#firstHeader p {
+    margin-top: 16px;
+}
+
+#firstHeader {
+    height: 56px
+}
+
+#secondHeader p a {
+    border: white 1px solid;
+    border-radius: 9px;
+    padding: 5px 14px;
+    color: white;
+}
+
+#secondHeader {
+    background: #061e26;
+    color: white;
+}
+
+#secondHeader .row {
+    padding: 30px 41px 30px 106px;
+}
+
+#secondHeader .col-md-4 span {
+    border-left: solid 1px white;
+    padding-left: 8px;
+    font-size: 19px;
+}
+
+#secondHeader p {
+    margin-top: 15px;
+}
+
+#secondHeader .col-md-1 {
+    letter-spacing: 2px;
+    margin-left: -58px;
+}
+
+#indexFirstSection {
+    margin-top: 70px;
+}
+
+#indexFirstSection>.row {
+    padding: 30px 40px;
+}
+
+#indexFirstSection .relative.partOne div {
+    position: absolute;
+    top: 115px;
+    color: white;
+    padding: 1px 223px;
+    left: -141px;
+}
+
+#indexFirstSection .relative.partOne div h2 {
+    font-family: font3;
+    letter-spacing: 2px;
+    font-size: 37px;
+    font-weight: bolder;
+}
+
+#indexFirstSection .relative.partOne div p {
+    font-size: 17px;
+}
+
+#indexFirstSection .partTwo {
+    margin-top: 25px;
+}
+
+#indexFirstSection .overlay {
+    background: black;
+    padding: 40px;
+    width: 72%;
+    margin-left: 18px;
+    position: absolute;
+    top: 64px;
+    opacity: 0.6;
+    height: 74%;
+}
+
+#indexFirstSection .writeUp {
+    padding: 40px;
+    width: 72%;
+    margin-left: 18px;
+    position: absolute;
+    top: 41px;
+    color: white;
+}
+
+#indexFirstSection .writeUp p {
+    font-size: 18px;
+}
+
+#indexFirstSection .writeUp span {
+    font-size: 16px;
+}
+
+#indexFirstSection .col-md-4 h3 {
+    text-align: center;
+    color: #061e26;
+}
+
+#indexFirstSection .col-md-4 .row {
+    padding: 16px 0px;
+}
+
+#indexFirstSection .col-md-4 .row p {
+    margin-top: -5px;
+    color: #bd6134;
+}
+
+#indexFirstSection .col-md-4 h5 {
+    color: #061e26;
+}
+
+#indexFirstSection .col-md-9 img {
+    margin-right: 10px;
+    margin-top: -16px;
+}
+
+#indexSecondSection>.row {
+    padding: 30px 55px;
+}
+
+#indexSecondSection h4,
+#indexSecondSection h6 {
+    color: #061e26;
+}
+
+#indexSecondSection h3 {
+    text-align: center;
+}
+
+#indexSecondSection .col-md-7 {
+    padding: 24px 20px;
+    text-align: center;
+}
+
+#indexSecondSection .col-md-7>.row {
+    margin-top: 30px;
+}
+
+#indexSecondSection .col-md-7 {
+    border: solid 1px gray;
+}
+
+#indexSecondSection .col-md-7 img {
+    display: block;
+    margin: auto;
+}
+
+#indexSecondSection iframe {
+    position: absolute;
+    left: -9px;
+    width: 574px;
+    height: 458px;
+}
+
+#indexThirdSection h3 {
+    margin-left: 94px;
+    margin-top: 30px;
+}
+
+#indexThirdSection .container-fluid {
+    background: #f5f5f5;
+    color: #061e26;
+}
+
+#indexThirdSection .container-fluid>.row {
+    padding: 20px 42px;
+}
+
+#indexThirdSection p {
+    padding: 14px 1px;
+}
+
+#indexThirdSection .col-md-4 .row {
+    background: white;
+    margin-left: 0px;
+    margin-right: 1px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: -32px;
+}
+
+#indexThirdSection .col-md-3 img {
+    position: absolute;
+    left: 0px;
+}
+
+#indexFourthSection>.row {
+    padding: 40px 54px;
+}
+
+#indexFourthSection h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: #061e26;
+}
+
+#indexFourthSection .date {
+    font-weight: bold;
+    margin-top: 44px;
+}
+
+#indexFourthSection .content {
+    padding: 24px 0px;
+    color: #061e26;
+}
+
+#indexFourthSection .button1 {
+    padding: 6px 16px;
+    border-radius: 9px;
+    background: #061e26;
+    color: white;
+    margin-right: 5px;
+}
+
+#indexFourthSection .button2 {
+    padding: 6px 16px;
+    border-radius: 9px;
+    background: white;
+    color: black;
+    border: solid 1px #061e26;
+}
+
+#indexFifthSection .row {
+    padding: 41px 66px;
+}
+
+#indexFifthSection>div {
+    position: absolute;
+    color: #5b2483;
+    top: 63px;
+    width: 56%;
+    padding: 69px 82px;
+    left: 569px;
+}
+
+#indexFifthSection p {
+    font-size: 20px;
+    color: black;
+}
+
+#indexFifthSection .button3 {
+    padding: 6px 16px;
+    border-radius: 9px;
+    background: #5b2483;
+    color: white;
+}
+
+#indexSixthSection .col-md-12 {
+    text-align: center;
+    background: #e1e8e9;
+    padding: 10px;
+}
+
+#footer {
+    background: #f3f3f3;
+    color: black;
+}
+
+#footer .firstRow {
+    padding: 59px 66px;
+}
+
+#footer .secondRow {
+    border-top: solid 1px;
+    padding: 12px;
+    text-align: center;
+}
+
+#footer .partTwo li {
+    line-height: 24px;
+}
+
+#footer hr {
+    background: black;
+    width: 13%;
+    border: solid 1px black;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer .partThree .col-md-5 {
+    border: solid 1px gray;
+    padding: 13px;
+    text-align: center;
+}
+
+#footer .partThree .shift {
+    margin-top: 10px;
+}
+
+#footer .partThree .shift1 {
+    margin-left: -20px;
+}
